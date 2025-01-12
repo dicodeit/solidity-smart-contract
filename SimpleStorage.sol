@@ -19,7 +19,7 @@ contract SimpleStorage {
     //     name: "Pat"
     // });
 
-    function store(uint256 _favNumber) public {
+    function store(uint256 _favNumber) public virtual {
         favNumber = _favNumber;
     }
 
